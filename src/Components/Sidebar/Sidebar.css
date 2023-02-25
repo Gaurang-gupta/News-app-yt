@@ -1,0 +1,49 @@
+.sidebar{
+    background-color: rgba(253, 250, 255, 255);
+    flex: 0.2;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sidebar__heading {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.sidebar__listItem {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 2px;
+    transition: all 0.1s ease-in-out;
+    width: 90%;
+    margin: auto;
+    border-radius: 30px;
+    color: #828387;
+    text-decoration: none;
+}
+
+.sidebar__listItem:hover {
+    background-color: #c8c3e3;
+    cursor: pointer;
+    color: #50419f;
+}
+
+.sidebar__logout {
+    margin-top: 40px;
+}
+
+.sidebar__rule {
+    color: #eeefef;
+    width: 90%;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+}
+
+.sidebar__icon{
+    padding-right: 10px;
+}
