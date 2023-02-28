@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.navbar__left{
+    padding-left: 20px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__input {
+    background-color: #fcfcfe;
+    outline: none;
+    width: 400px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.navbar__image {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.navbar__locIcon {
+    color: #4f3e9c;
+    padding-right: 4px;
+}
