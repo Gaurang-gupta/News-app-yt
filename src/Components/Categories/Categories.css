@@ -1,0 +1,33 @@
+.categories{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.categories__heading{
+    font-weight: 500;
+    font-size: 20px;
+    color: #343a4f;
+}
+
+.categories__list{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 10px;
+    width: 98%;
+    margin-top: 20px;
+}
+
+.categories__listItem{
+    padding: 10px;
+    background-color: #f7f7f7;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all ease-in-out 0.1s;
+}
+
+.categories__listItem:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
